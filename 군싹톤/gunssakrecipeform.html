@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>군침이 싹 도는 레시피</title>
+    <style>
+        #wrap {
+            background-color: rgb(255, 206, 233);
+            text-align: center;
+        }
+        section img {
+            height: 200px;
+            margin-top: 50px;
+        }
+        h1{
+            font-family: HY견고딕;
+            color: rgb(66, 33, 33);
+        }
+        section {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+        table {
+            height: 200px;
+            margin: auto;
+        }
+        tr{
+            color: rgb(255, 165, 165);
+        }
+        select {
+            height: 40px;
+            width: 160px;
+            border-radius: 5px;
+            border : 2px solid rgb(255, 165, 165);
+            color: rgb(224, 106, 106);
+        }
+        span {
+            color: rgb(224, 106, 106);
+            font-family: HY견고딕;
+        }
+        #reset {
+            color: rgb(224, 106, 106);
+            font-family: HY견고딕;
+            font-size: large;
+        }
+        #reset input {
+            height: 40px;
+            width: 100px;
+            color: rgb(224, 106, 106);
+            font-family: HY견고딕;
+            font-size: large;
+            border-radius: 5px;
+            border : 2px solid rgb(255, 165, 165);
+            color: rgb(224, 106, 106);
+            background-color: #fff;
+        }
+        #submitbutton button{
+            height: 80px;
+            width: 700px;
+            font-family: HY견고딕;
+            font-size: x-large;
+            border-radius: 50px;
+            border : 3px solid rgb(252, 72, 72);
+            color: rgb(255, 255, 255);
+            background-color: rgb(224, 106, 106);
+            margin-top: 40px;
+            cursor: pointer;
+        }
+        #submitbutton {
+            margin-bottom: 30px;
+        }
+        #submitbutton button:hover {
+            background-color: rgb(255, 163, 163);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+    <section>
+        <img id="rupy" src="img/루피.png">
+        <h1>재료 입력하기</h1>
+        <div id="writeform">
+            <form action="demo.asp" method="get" id="tableform">
+                <table>
+                    <tr id="selectt">
+                        <td>
+                        <span>요리 종류 :  </span>
+                        <select name="type">
+                            <option value="seoul">전체</option>
+                            <option value="seoul">밑반찬</option>
+                            <option value="seoul">메인반찬</option>
+                            <option value="seoul">국/탕</option>
+                            <option value="seoul">찌개</option>
+                            <option value="seoul">디저트</option>
+                            <option value="seoul">면/만두</option>
+                            <option value="seoul">밥/죽/떡</option>
+                            <option value="seoul">퓨전</option>
+                            <option value="seoul">김치/젓갈/장류</option>
+                            <option value="seoul">양념/소스/잼</option>
+                            <option value="seoul">양식</option>
+                            <option value="seoul">샐러드</option>
+                            <option value="seoul">스프</option>
+                            <option value="seoul">빵</option>
+                            <option value="seoul">과자</option>
+                            <option value="seoul">차/음료/술</option>
+                            <option value="seoul">기타</option>
+                        </select> &emsp;
+                        <span>요리 상황 :  </span>
+                        <select name="situation">
+                            <option value="seoul">전체</option>
+                            <option value="seoul">일상</option>
+                            <option value="seoul">초스피드</option>
+                            <option value="seoul">손님접대</option>
+                            <option value="seoul">술안주</option>
+                            <option value="seoul">다이어트</option>
+                            <option value="seoul">도시락</option>
+                            <option value="seoul">영양식</option>
+                            <option value="seoul">간식</option>
+                            <option value="seoul">야식</option>
+                            <option value="seoul">푸드스타일링</option>
+                            <option value="seoul">해장</option>
+                            <option value="seoul">명절</option>
+                            <option value="seoul">이유식</option>
+                            <option value="seoul">기타</option>
+                        </select>&emsp;
+                        <span>요리 주재료 :  </span>
+                        <select name="ingredient">
+                            <option value="seoul">전체</option>
+                            <option value="seoul">소고기</option>
+                            <option value="seoul">돼지고기</option>
+                            <option value="seoul">닭고기</option>
+                            <option value="seoul">육류</option>
+                            <option value="seoul">채소류</option>
+                            <option value="seoul">해물류</option>
+                            <option value="seoul">달걀/유제품</option>
+                            <option value="seoul">가공식품류</option>
+                            <option value="seoul">쌀</option>
+                            <option value="seoul">밀가루</option>
+                            <option value="seoul">건어물류</option>
+                            <option value="seoul">버섯류</option>
+                            <option value="seoul">과일류</option>
+                            <option value="seoul">콩/견과류</option>
+                            <option value="seoul">곡류</option>
+                            <option value="seoul">기타</option>
+                        </select>&emsp;
+                        <span>요리 방법 :  </span>
+                        <select name="ingredient">
+                            <option value="seoul">전체</option>
+                            <option value="seoul">볶음</option>
+                            <option value="seoul">끓이기</option>
+                            <option value="seoul">부침</option>
+                            <option value="seoul">조림</option>
+                            <option value="seoul">무침</option>
+                            <option value="seoul">비빔</option>
+                            <option value="seoul">찜</option>
+                            <option value="seoul">절임</option>
+                            <option value="seoul">튀김</option>
+                            <option value="seoul">삶기</option>
+                            <option value="seoul">굽기</option>
+                            <option value="seoul">데치기</option>
+                            <option value="seoul">회</option>
+                            <option value="seoul">기타</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="reset">Reset : <input type="reset" value="초기화"></td>
+                    </tr>
+                </table>
+            </form>
+            <div id="submitbutton">
+                <button type="button">레시피 검색</button>
+            </div>
+    </section>
+    </div>
+</body>
+</html>
