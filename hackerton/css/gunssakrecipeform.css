@@ -1,0 +1,71 @@
+#wrap {
+    background-color: rgb(255, 206, 233);
+    text-align: center;
+}
+section img {
+    height: 200px;
+    margin-top: 50px;
+}
+h1{
+    font-family: HY견고딕;
+    color: rgb(66, 33, 33);
+}
+section {
+    text-align: center;
+    padding-bottom: 30px;
+}
+table {
+    height: 180px;
+    margin: auto;
+}
+tr{
+    color: rgb(255, 165, 165);
+}
+select {
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    border : 2px solid rgb(255, 165, 165);
+    color: rgb(224, 106, 106);
+}
+span {
+    color: rgb(224, 106, 106);
+    font-family: HY견고딕;
+}
+#reset {
+    font-family: HY견고딕;
+    font-size: small;
+    position: absolute;
+    top :460px;
+    right: 200px;
+}
+#reset input {
+    height: 40px;
+    width: 100px;
+    color: rgb(224, 106, 106);
+    font-family: HY견고딕;
+    border-radius: 5px;
+    border : none;
+    outline: none;
+    background-color: rgb(255, 206, 233);
+    text-align: left;
+    cursor: pointer;
+}
+#submitbutton button{
+    height: 80px;
+    width: 700px;
+    font-family: HY견고딕;
+    font-size: x-large;
+    border-radius: 50px;
+    border : 3px solid rgb(252, 72, 72);
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 106, 106);
+    margin-top: 40px;
+    cursor: pointer;
+}
+#submitbutton {
+    margin-bottom: 30px;
+}
+#submitbutton button:hover {
+    background-color: rgb(255, 163, 163);
+}

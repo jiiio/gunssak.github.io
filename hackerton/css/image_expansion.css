@@ -11,7 +11,7 @@
 body {
   height: 100vh;
   animation: fadeIn 1s linear;
-  border-radius: 50%;
+  background-image: url(../img/loopy.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 70%;

@@ -1,0 +1,38 @@
+        #wrap {
+            background-color: rgb(253, 231, 244);
+            text-align: center;
+            padding: 10px;
+        }
+        section {
+            border: 3px solid rgb(255, 140, 140);
+            padding: 20px 30px;
+        }
+        section img{
+            width: 200px;
+            margin-top: 30px;
+        }
+        #make {
+            background-color: rgb(255, 246, 246);
+            border-radius: 20px;
+            border: none;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        #make img {
+            width: 800px;
+        }
+        #brain {
+            color: rgb(97, 97, 97);
+            font-size: small;
+            text-align: right;
+            margin-right: 30px;
+        }
+        #bottom img{
+            width: 300px;
+            border-radius: 50%;
+        }
+        #other a{
+            text-decoration: none;
+            font-size: larger;
+            color: gray;
+        }
