@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100&display=swap');
+
+body {
+    margin: 0 0;
+}
+
+.yumdda {
+    display: none;
+    z-index: 1;
+}
+.lie {
+    display: none;
+    color: rgb(0, 255, 213);
+    font-size: 1.8rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}
+.book {
+    font-size: 3rem;
+    color: red;
+    font-family: 'Black Han Sans', sans-serif;
+    font-weight: 300;
+}
+
+main {
+    background-color: rgba(25, 100, 178);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wink{
+    width: 200px;
+}
+.mainER {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.footER {
+    color: white;
+    opacity: 0.4;
+}
+
+.macbook {
+    display: none;
+    position: absolute;
+    width: 250px;
+    top: 30%;
+    left: 28%;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: move;
+    animation-direction: alternate;
+    transition-timing-function: ease-in;
+}
+
+@keyframes move {
+    from {
+        top: 30%;
+        left: 28%;
+        width: 250px;
+    }
+    
+    to {
+        top: 30%;
+        left: 38%;
+        width: 600px;
+    }
+}
