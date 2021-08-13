@@ -1,15 +1,28 @@
 body {
-    height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#page_header img {
+  width: 7%;
+  height: 7%;
+}
+
+#page_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
 }
 
 #image_container {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #image_container img {
-    width: 800px;
-    height: 800px;
+  width: 800px;
+  height: 800px;
 }
