@@ -1,0 +1,30 @@
+@keyframes fadeIn {
+    from {
+      background-size: 50%;
+    }
+  
+    to {
+        background-size: 70%;
+    }
+  }
+
+body {
+    height: 100vh;
+    animation: fadeIn 1s linear;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 70%;
+}
+
+#link_container {
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+#links {
+    position: absolute;
+    top: 1420px;
+    left: 630px;
+}

@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+}
+
+#image_container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_container img {
+    width: 800px;
+    height: 800px;
+}
